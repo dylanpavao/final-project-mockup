@@ -1,6 +1,9 @@
 import './public-landing-page.html';
 import './public-landing-page.js';
 
+import './login-page.html';
+import './login-page.js';
+
 import './add-stuff-page.html';
 import './add-stuff-page.js';
 
