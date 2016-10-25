@@ -2,11 +2,68 @@ import { FlowRouter } from 'meteor/kadira:flow-router';
 import { BlazeLayout } from 'meteor/kadira:blaze-layout';
 
 FlowRouter.route('/', {
+  name: 'Public_Landing_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Public_Landing_Page' });
+  },
+});
+
+FlowRouter.route('/login', {
+  name: 'Login_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Login_Page' });
+  },
+});
+
+FlowRouter.route('/user-home', {
+  name: 'User_Home_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'User_Home_Page' });
+  },
+});
+
+FlowRouter.route('/admin-home', {
+  name: 'Admin_Home_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Admin_Home_Page' });
+  },
+});
+
+FlowRouter.route('/user-profile', {
+  name: 'User_Profile_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'User_Profile_Page' });
+  },
+});
+
+FlowRouter.route('/calendar', {
+  name: 'Calendar_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Calendar_Page' });
+  },
+});
+
+FlowRouter.route('/session', {
+  name: 'Create_Study_Sesh_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Create_Study_Sesh_Page' });
+  },
+});
+
+FlowRouter.route('/leaderboard', {
+  name: 'Leaderboard_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Leaderboard_Page' });
+  },
+});
+/*
+FlowRouter.route('/', {
   name: 'Home_Page',
   action() {
     BlazeLayout.render('App_Body', { main: 'Home_Page' });
   },
 });
+*/
 
 FlowRouter.route('/list', {
   name: 'List_Stuff_Page',
