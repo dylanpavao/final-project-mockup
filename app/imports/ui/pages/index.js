@@ -4,6 +4,9 @@ import './public-landing-page.js';
 import './login-page.html';
 import './login-page.js';
 
+import './calendar-page.html';
+import './calendar-page.js';
+
 import './add-stuff-page.html';
 import './add-stuff-page.js';
 
