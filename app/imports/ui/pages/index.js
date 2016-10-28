@@ -7,6 +7,9 @@ import './login-page.js';
 import './calendar-page.html';
 import './calendar-page.js';
 
+import './sessions-page.html';
+import './sessions-page.js';
+
 import './add-stuff-page.html';
 import './add-stuff-page.js';
 

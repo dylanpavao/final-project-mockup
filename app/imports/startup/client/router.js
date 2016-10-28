@@ -22,6 +22,13 @@ FlowRouter.route('/calendar', {
   },
 });
 
+FlowRouter.route('/sessions', {
+  name: 'Sessions_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Sessions_Page' });
+  },
+});
+
 FlowRouter.route('/user-home', {
   name: 'User_Home_Page',
   action() {
