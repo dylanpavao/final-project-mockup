@@ -13,6 +13,9 @@ import './sessions-page.js';
 import './leaderboard-page.html';
 import './leaderboard-page.js';
 
+import './user-home-page.html';
+import './user-home-page.js';
+
 import './add-stuff-page.html';
 import './add-stuff-page.js';
 
