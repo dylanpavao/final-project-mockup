@@ -10,6 +10,9 @@ import './calendar-page.js';
 import './sessions-page.html';
 import './sessions-page.js';
 
+import './leaderboard-page.html';
+import './leaderboard-page.js';
+
 import './add-stuff-page.html';
 import './add-stuff-page.js';
 
