@@ -15,6 +15,13 @@ FlowRouter.route('/login', {
   },
 });
 
+FlowRouter.route('/calendar', {
+  name: 'Calendar_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Calendar_Page' });
+  },
+});
+
 FlowRouter.route('/user-home', {
   name: 'User_Home_Page',
   action() {
@@ -36,34 +43,20 @@ FlowRouter.route('/user-profile', {
   },
 });
 
-FlowRouter.route('/calendar', {
-  name: 'Calendar_Page',
-  action() {
-    BlazeLayout.render('App_Body', { main: 'Calendar_Page' });
-  },
-});
-
-FlowRouter.route('/session', {
-  name: 'Create_Study_Sesh_Page',
-  action() {
-    BlazeLayout.render('App_Body', { main: 'Create_Study_Sesh_Page' });
-  },
-});
-
 FlowRouter.route('/leaderboard', {
   name: 'Leaderboard_Page',
   action() {
     BlazeLayout.render('App_Body', { main: 'Leaderboard_Page' });
   },
 });
-/*
-FlowRouter.route('/', {
+
+/* DON'T NEED */
+FlowRouter.route('/home', {
   name: 'Home_Page',
   action() {
     BlazeLayout.render('App_Body', { main: 'Home_Page' });
   },
 });
-*/
 
 FlowRouter.route('/list', {
   name: 'List_Stuff_Page',
@@ -85,6 +78,7 @@ FlowRouter.route('/stuff/:_id', {
     BlazeLayout.render('App_Body', { main: 'Edit_Stuff_Page' });
   },
 });
+/* DON'T NEED */
 
 FlowRouter.notFound = {
   action() {
